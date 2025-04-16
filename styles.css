@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sketch-board{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #cccc;
+    width: 400px;
+    height: 400px;
+}
+
+.gridCube{
+    flex-shrink: 1;
+    width: 23px;
+    height: 23px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #cccc;
+}
+
+.gridCube:hover{
+    background-color: red;
+}
